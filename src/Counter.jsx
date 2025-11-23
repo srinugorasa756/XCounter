@@ -26,8 +26,8 @@ export default function Counter(){
             <h1>Welcome to Counter App!</h1>
             <h2>Count: {counts}</h2>
             <div style={{marginTop: "10px"}}>
-                <button style={{marginRight: "5px"}} onClick={Increment}>+</button>
-                <button style={{marginRight: "5px"}} onClick={Decrement}>-</button>
+                <button style={{marginRight: "5px"}} onClick={Increment}>Increment</button>
+                <button style={{marginRight: "5px"}} onClick={Decrement}>Decrement</button>
                 <button style={{marginRight: "5px"}} onClick={Reset}>CE</button>
                 <button onClick={Invert}>+/-</button>
             </div>
